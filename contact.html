@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Connect with Future Funnels response desk. Submit your cyber security service requests or register for the academy to connect via WhatsApp.">
+    <title>Contact Our Security Desk | Future Funnels</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body class="page-contact">
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.svg" alt="Future Funnels Logo" class="logo-image">
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Solutions</a>
+                <a href="academy.html" class="nav-link">Academy Course</a>
+                <a href="contact.html" class="nav-btn active">Secure Your Assets</a>
+            </nav>
+            
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Emergency Attack Banner Ticker -->
+    <div class="emergency-ticker">
+        <a href="contact.html?focus=emergency" class="ticker-content" id="emergency-cta">
+            <span class="ticker-badge">EMERGENCY</span>
+            <span class="ticker-text">Under an active cyber attack or compromised? Click here for immediate Incident Response & Recovery Support via WhatsApp.</span>
+            <span class="ticker-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </span>
+        </a>
+    </div>
+
+    <main>
+        <!-- Contact Section / Interactive WhatsApp Flow -->
+        <section class="contact page-contact-section" id="contact">
+            <div class="container contact-grid">
+                <div class="contact-text-area">
+                    <span class="section-tag">SECURE CHANNEL</span>
+                    <h2 class="contact-headline">Initiate Consultation or Secure Academy Access</h2>
+                    <p class="contact-subtext">
+                        Submit your query below. Our automated gateway generates a secure chat channel. Clicking submit will directly launch **WhatsApp Chat** with our security response desk.
+                    </p>
+                    
+                    <div class="direct-phone-box">
+                        <div class="direct-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Direct WhatsApp Helpline</h4>
+                            <p class="helpline-num">+91 9646851325</p>
+                        </div>
+                    </div>
+
+                    <div class="privacy-disclaimer">
+                        <strong>GDPR & Confidentiality Notice:</strong> We do not log or sell data. All transmissions are subject to strict client-consultant confidentiality.
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper hover-glow">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-title">Consultation Desk Inquiry</div>
+                        
+                        <div class="form-group">
+                            <label for="user-name">Your Full Name</label>
+                            <input type="text" id="user-name" name="name" placeholder="e.g. John Doe" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="user-email">Email Address</label>
+                            <input type="email" id="user-email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="user-phone">Mobile / WhatsApp Number</label>
+                                <input type="tel" id="user-phone" name="phone" placeholder="Include Country Code" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="user-service">Inquiry Focus</label>
+                                <select id="user-service" name="service" required>
+                                    <option value="Course Enrollment">Academy Course Enrollment ($99)</option>
+                                    <option value="Active Cyber Crime Solution">Active Incident Solution (Reactive)</option>
+                                    <option value="Preventative Defense Setup">Scam Prevention Setup (Proactive)</option>
+                                    <option value="Scam Audit Consultation">Scam/Link Verification Consultation</option>
+                                    <option value="General Query">General Security Query</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="user-message">Describe Your Situation / Inquiry</label>
+                            <textarea id="user-message" name="message" rows="4" placeholder="Describe how we can help you..." required></textarea>
+                        </div>
+
+                        <div class="form-checkbox-group">
+                            <input type="checkbox" id="user-consent" required checked>
+                            <label for="user-consent">I authorize redirecting my details to WhatsApp for secure response.</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary form-submit-btn glow-button">
+                            <span>Open WhatsApp Connection</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <img src="assets/logo.svg" alt="Future Funnels Logo" class="logo-image logo-image--footer">
+                </a>
+                <p class="footer-desc">Elite Cyber Scam Protection Services & Educational Academy. We empower digital safety globally.</p>
+            </div>
+            
+            <div class="footer-links-col">
+                <h4>Solutions</h4>
+                <a href="services.html#solutions-block">Cyber Solutions</a>
+                <a href="services.html#prevention-block">Scam Prevention</a>
+                <a href="services.html#verification-block">Verification Desk</a>
+            </div>
+            
+            <div class="footer-links-col">
+                <h4>Academy</h4>
+                <a href="academy.html">Academy Modules</a>
+                <a href="academy.html">Enrollment Info</a>
+                <a href="index.html#why-us">Trust Factors</a>
+            </div>
+            
+            <div class="footer-links-col">
+                <h4>Legal & Info</h4>
+                <a href="contact.html">Contact Helpdesk</a>
+                <span class="legal-disclaimer">Disclaimer: Future Funnels is a private cyber education & consulting service. We are not a law enforcement organization.</span>
+            </div>
+        </div>
+        
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Future Funnels. All Rights Reserved. Securing assets worldwide.</p>
+        </div>
+    </footer>
+
+    <!-- App JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
